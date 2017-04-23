@@ -5,8 +5,8 @@
     <title>HTML Academy: Барбершоп</title>
   </head>
   <body>
+      <div class="container">
       <header class="main-header">
-          <div class="container">
               <div class="logo">
                   <a href="#">
                   <img src="#" alt="Barbershop">
@@ -31,14 +31,13 @@
                       </li>
                   </ul>
               </nav>
-          </div>
+         
           <div class="enter">
               <a class="btn" href="#">Вход</a>
           </div>
       </header>
-      <main class="container">
-          
-              <div class="facilities-for-care">
+          <main>
+          <div class="facilities-for-care">
                   <h1>Средства для ухода</h1>
                   <a class="title" href="#">Главная</a>
                   <a class="title" href="#">Магазин</a>
@@ -49,87 +48,92 @@
                       <div class="company">
                       <span class="company-title">Производитель:</span>
                       <label>
-                          <input type="checkbox" checked> Baxter of Califarnia
+                          <input type="checkbox" name="baxter" checked> Baxter of Califarnia
                       </label>
                       <label>
-                          <input type="checkbox">MR Natty
+                          <input type="checkbox" name="natty">MR Natty
                       </label>
                       <label>
-                          <input type="checkbox" checked> Suavecito
+                          <input type="checkbox" name="Suavecito" checked> Suavecito
                       </label>
                       <label>
-                          <input type="checkbox"> Malin-Goets
+                          <input type="checkbox" name="Goets"> Malin-Goets
                       </label>
                       <label>
-                          <input type="checkbox">Murray's
+                          <input type="checkbox" name="Goets">Goets
                       </label>
                       <label>
-                          <input type="checkbox" checked>American crew
+                          <input type="checkbox" name="crew" checked>American crew
                       </label>
                       </div>
                       <div class="product">
                           <span class="group-product">Группы товаров</span>
                           <label>
-                              <input type="checkbox" name="product-razor">Бритвенные принадлежности
+                              <input type="radio" name="product-razor">Бритвенные принадлежности
                           </label>
                           <label>
-                              <input type="checkbox" name="product-care" checked>Средства для ухода
+                              <input type="radio" name="product-care" checked>Средства для ухода
                           </label>
                           <label>
-                              <input type="checkbox" name="product-accessory">Аксессуары
+                              <input type="radio" name="product-accessory">Аксессуары
                           </label>
                       </div>
+                      <input type="submit" value="Показать">
                   </form>
-                  <input type="submit" value="Показать">
+                  
               </div>
               <div class="catalog">
                   <div class="catalog-product">
-                      <img src="#" alt="Набор для путешествий">
-                      <span class="catalog-title">Набор для путешествий "Baxter of California"</span>
-                      <a class="btn" href="#">2900 руб.</a>
+                      <a class="catalog-image" href="#">
+                      <img src="#" alt="Набор для путешествий"></a>
+                      <a class="catalog-title" href="#">Набор для путешествий "Baxter of California"</a>
+                      <span>2900 руб.</span>
                       <a class="btn" href="#">Купить</a>
                   </div>
                   <div class="catalog-product">
-                      <img src="#" alt="Увлажняющий кондиционер">
-                      <span class="catalog-title">Увлажняющий кондиционер "Baxter of California"</span>
-                      <a class="btn" href="#">750 руб.</a>
+                      <a class="catalog-image" href="#"><img src="#" alt="Увлажняющий кондиционер"></a>
+                      <a class="catalog-title" href="#">Увлажняющий кондиционер "Baxter of California"</a>
+                      <span>750 руб.</span>
                       <a class="btn" href="#">Купить</a>
                   </div>
                   <div class="catalog-product">
-                      <img src="#" alt="Гель для волос">
-                      <span class="catalog-title">Гель для волос "Suavecito"</span>
-                      <a class="btn" href="#">290 руб.</a>
+                      <a class="catalog-image" href="#">
+                          <img src="#" alt="Гель для волос"></a>
+                      <a class="catalog-title" href="#">Гель для волос "Suavecito"</a>
+                      <span>290 руб.</span>
                       <a class="btn" href="#">Купить</a>
                   </div>
                   <div class="catalog-product">
-                      <img src="#" alt="Глина для укладки волос">
-                      <span class="catalog-title">Глина для укладки волос "American crew" </span>
-                      <a class="btn" href="#">500 руб.</a>
+                      <a class="catalog-image" href="#">
+                          <img src="#" alt="Глина для укладки волос"></a>
+                      <a class="catalog-title" href="#">Глина для укладки волос "American crew" </a>
+                      <span>500 руб.</span>
                       <a class="btn" href="#">Купить</a>
                   </div>
                   <div class="catalog-product">
-                      <img src="#" alt="Гель для волос">
-                      <span class="catalog-title">Гель для волос "American crew"</span>
-                      <a class="btn" href="#">300 руб.</a>
+                      <a class="catalog-image" href="#"><img src="#" alt="Гель для волос">
+                      </a>
+                      <a class="catalog-title" href="#">Гель для волос "American crew"</a>
+                      <span>300 руб.</span>
                       <a class="btn" href="#">Купить</a>
                   </div>
                   <div class="catalog-product">
-                      <img src="#" alt="Набор для бритья">
-                      <span class="catalog-title">Набор для бритья "Baxter of California"</span>
-                      <a class="btn" href="#">3900 руб.</a>
+                      <a class="catalog-image" href="#">
+                          <img src="#" alt="Набор для бритья"></a>
+                      <a class="catalog-title" href="#">Набор для бритья "Baxter of California"</a>
+                      <span>3900 руб.</span>
                       <a class="btn" href="#">Купить</a>
                   </div>
               </div>
-              <div class="pages">
-                  <a class="btn" href="#">1</a>
-                  <a class="btn" href="#">2</a>
-                  <a class="btn" href="#">3</a>
-                  <a class="btn" href="#">4</a>
-              </div>
-          
+              <ul class="pages">
+                  <li><a class="btn" href="#">1</a></li>
+                  <li><a class="btn" href="#">2</a></li>
+                  <li><a class="btn" href="#">3</a></li>
+                  <li><a class="btn" href="#">4</a></li>
+              </ul>
+              
       </main>
       <footer class="main-footer">
-          <div class="container">
               <div class="footer-adress">
                   <p>Барбершоп "БОРОДИНСКИЙ" <br>
                   Адрес: г.Санкт-Петербург, ул. Б. Конюшенная, д. 19/8<br>
@@ -146,7 +150,7 @@
                   <p>Разработано:</p>
                   <a class="btn" href="https://htmlacademy.ru">HTML Academy</a>    
               </div>
-          </div>
-      </footer>
+           </footer>
+      </div>
     </body>
 </html>
