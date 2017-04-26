@@ -1,0 +1,163 @@
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+html {
+    box-sizing: border-box;
+}
+body {
+    font-size: 14px;
+    line-height: 26px;
+    color: black;
+    font-weight: bold;
+    font-family: "PTSans", "Arial", sans-serif;
+    padding: 0 40px;
+    text-align: left;
+    text-transform: uppercase;
+    font-family: "PTSans", "Arial", sans-serif;
+}
+.main-header {
+    width: 1200px;
+    min-height: 70px;
+    background-color: black;
+}
+.container {
+    width: 940px;
+    min-height: 70px;
+    margin: 0 auto;
+    background-color: yellow;
+    
+}
+.main-header-layout {
+    display:flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.main-navigation ul {
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+    width: 580px;
+   
+}
+.enter {
+    width: 220px;
+    padding-right: 17px;
+    text-align: right;
+}
+main  {
+    width: 1200px;
+    min-height: 912px;
+    background-color: cyan;
+    
+}
+.facilities-for-care {
+    display: flex;
+    flex-direction: column;
+    height: 182px;
+}
+.facilities {
+    display: flex;
+    justify-content: space-between;
+    padding-right: 640px;
+    font-size: 6.8px;
+    
+}
+.main-information {
+    display: flex;
+    width: 940px;
+    height: 593px;
+}
+.search-product {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 240px;
+    height: 529px;
+    padding-right: 73px;
+}
+.company {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    height: 311px;
+}
+.product {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    height: 282px;
+}
+.catalog {
+    display: flex;
+    flex-wrap: wrap;
+}
+.catalog-product {
+    width: 220px;
+    height: 287px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-right: 20px;
+}
+.pages {
+    display: flex;
+    flex-basis: 940px;
+    height: 138px;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+.main-footer {
+    width: 1200px;
+    height: 189px;
+    background-color: aquamarine;
+}
+.adress {
+    display: flex;
+    height: 189px;
+   
+}
+.footer-adress {
+    width: 400px;
+    padding-right: 90px;
+}
+.footer-social {
+    width: 160px;
+}
+.footer-copyright {
+    width: 380px;
+    text-align: right;
+}
+.shop {
+    width: 940px;
+    min-height: 903px;
+    background-color: chartreuse;
+    
+}
+.title-page {
+    display: flex;
+    flex-direction: column;
+    height: 187px;
+}
+.breadcrumbs ul{
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+}
+.info-product {
+    display: flex;
+    justify-content: space-between;
+}
+.pictures {
+    display: flex;
+    flex-wrap: wrap;
+    flex-basis: 460px;
+    height: 673px;
+}
+.description-product {
+    padding-left: 90px;
+}
